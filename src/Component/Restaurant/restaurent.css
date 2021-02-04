@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.navbar{
+    padding: 1rem 3rem;
+}
+.font{
+    font-family: 'Poppins', sans-serif;
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+}
+.card-title{
+    font-family: 'Poppins', sans-serif;
+}
+.card-body{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.img-thumbnail{
+    width: 130px;
+    height: 147px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.right-side {
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid white;
+    position: absolute;
+    top: 50%;
+    right: 12%;
+    transform: translate(-50%, -12%);
+    color: white;
+    -webkit-transform: translate(-50%, -12%);
+    -moz-transform: translate(-50%, -12%);
+    -ms-transform: translate(-50%, -12%);
+    -o-transform: translate(-50%, -12%);
+}
+.hero-img{
+    position: relative;
+    height: 400px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-img{
+        height: auto;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    .right-side {
+        font-family: 'Poppins', sans-serif;
+        border-bottom: 1px solid white;
+        position: absolute;
+        top: 31%;
+        right: 12%;
+        font-size: smaller;
+        color: white;
+        transform: translate(-31%, -12%);
+        -webkit-transform: translate(-31%, -12%);
+        -moz-transform: translate(-31%, -12%);
+        -ms-transform: translate(-31%, -12%);
+        -o-transform: translate(-31%, -12%);
+}
+}
