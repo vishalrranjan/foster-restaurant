@@ -25,6 +25,7 @@
 }
 .img-thumbnail{
     width: 130px;
+    cursor: pointer;
     height: 147px;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -77,5 +78,5 @@
         -moz-transform: translate(-31%, -12%);
         -ms-transform: translate(-31%, -12%);
         -o-transform: translate(-31%, -12%);
-}
+    }
 }

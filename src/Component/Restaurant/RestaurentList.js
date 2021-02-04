@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './restaurent.css'
 import axios from 'axios';
 import heroimg from '../../image/hero-img.jpg';
+import { Link } from 'react-router-dom';
 
 export default function List() {
     const [apiData, setApiData] = useState();
@@ -43,7 +44,9 @@ export default function List() {
                         <div key={cuisines.cuisine_id} className="mb-3" style={{maxWidth:"540px"}}>
                             <div className="row no-gutters">
                                 <div className="col-md-4 d-flex justify-content-center align-items-center">
+                                <Link to="/image" onClick={()=> localStorage.setItem("img_url","https://i.ibb.co/vcbZ1NF/fast-food-thumbnail.jpg")}>
                                     <img className="img-thumbnail" style={{border:`1px solid ${cuisines.color}`}} src="https://i.ibb.co/vcbZ1NF/fast-food-thumbnail.jpg" alt="fast-food-thumbnail" />
+                                </Link>
                                 </div>
                                 <div className="col-md-8">
                                     <div className="card-body" style={{backgroundColor:`${cuisines.color}`, color:`${cuisines.text_color}` }}>

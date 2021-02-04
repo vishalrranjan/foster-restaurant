@@ -1,0 +1,37 @@
+.icon{
+    width: 40px;
+    height: 40px;
+    transition: width 0.5s, height 0.6s;
+    -webkit-transition: width 0.5s, height 0.6s;
+    -moz-transition: width 0.5s, height 0.6s;
+    -ms-transition: width 0.5s, height 0.6s;
+    -o-transition: width 0.5s, height 0.6s;
+    animation-timing-function: linear;
+}
+
+.icon:hover{
+    width: 55px;
+    height: 55px;
+}
+
+.couisine-img{
+    position: relative;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+}
